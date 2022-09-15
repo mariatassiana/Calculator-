@@ -1,0 +1,115 @@
+body{
+    height: 600px;
+    background-color:lightblue;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    margin: auto;
+    display: flex;
+    height: 85%;
+    width: 60%;
+    justify-content: center;
+    box-shadow: 0 35px 55px rgb(0,0,0,0.1);
+    gap: 5px;
+    
+}
+.left_side{
+    height: 100%;
+    width: 50%;
+    background-color: #003147;
+    border-radius: 5%;
+}
+.right_side{
+    height: 100%;
+    width: 50%;
+    background-color: #236482;
+    border-radius: 5%;
+}
+.first_number{
+    height: 10%;
+    width: 67%;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+}
+.second_number{
+    height: 10%;
+    width: 67%;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+}
+.clear{
+    height: 12%;
+    width: 67%;
+    background-color: beige;
+    margin: auto;
+    margin-top: 20px;
+}
+.operations{
+    height: 45%;
+    width: 70%;
+    background-color: #003147;
+    margin: auto;
+    margin-top: 20px;
+    gap: 5px;
+    
+}
+.columone{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+    
+}
+.columntwo{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+}
+.multiplicação{
+    height: 95%;
+    width: 48%;
+    background-color: beige;
+    border-radius: 5%;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+.divisão{
+    height: 95%;
+    width: 48%;
+    background-color: beige;
+    border-radius: 5%;
+    text-align: center;
+    font-size: xx-large;
+}
+.adição{
+    height: 95%;
+    width: 48%;
+    background-color: beige;
+    border-radius: 5%;
+    font-size: xx-large;
+    text-align: center;
+}
+.subtração{
+    height: 95%;
+    width: 48%;
+    background-color: beige;
+    border-radius: 5%;
+    font-size: xx-large;
+    text-align: center; 
+}
+.Histórico{
+    height: 10%;
+    width: 67%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
