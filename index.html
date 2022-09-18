@@ -9,28 +9,24 @@
 </head>
 <body>
     <div class="container">
-        <div class="left_side">
-            <div class="first_number"></div>
-            <div class="second_number"></div>
-            <div class="clear"></div>
-            <div class="operations">
-                <div class="columone">
-                    <div class="multiplicação">x</div>
-                    <div class="divisão">÷</div>
-                </div>
-                <div class="columntwo">
-                    <div class="adição">+</div>
-                    <div class="subtração">-</div>
-                </div>
-        
+        <div class="input">
+            <input id="num1" type="number" placeholder="Digite um número">
+            <input id="num2" type="number" placeholder="Digite um número">
+            <button onclick="calc('+')">+</button>  
+            <button onclick="calc('-')">-</button>
+            <button onclick="calc('*')">*</button>
+            <button onclick="calc('÷')">÷</button>
+        </div>
+        <div class="Histórico">
+            <h2>Histórico</h2>
+            <input id="output" type="number" readonly value="0"/>
+            <div id="history" class="history">
+                <h3>Últimas operações:</h3>
+                <div class="clear"></div>
+            </div>
             </div>
         </div>
-        <div class="right_side">
-            <div class="Histórico">
-                <h2>Histórico</h2>
-            </div>
-        </div>
-        
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

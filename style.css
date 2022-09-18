@@ -5,111 +5,61 @@ body{
     justify-content: center;
     min-height: 100vh;
 }
+input{
+    width: 90%;
+    height: 15%;
+    text-align: center;
+    border-radius: 5%;
+    background-color: white;
+    font-size: larger;
+    
+}
+button{
+  height: 15%;
+  width: 90%;
+  background-color: lightblue;
+  border-radius: 5%;
+  font-size: x-large;
+
+}
+.clear{
+    clear: both;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 70%;
+    gap: 20px;
+    padding: 20px;
+}
+.output{
+    display: flex;
+    height: 12%;
+    font-size: large;
+}
 .container{
     margin: auto;
     display: flex;
-    height: 85%;
-    width: 60%;
-    justify-content: center;
+    height: 70%;
+    width: 50%;
     box-shadow: 0 35px 55px rgb(0,0,0,0.1);
     gap: 5px;
-    
-}
-.left_side{
-    height: 100%;
-    width: 50%;
     background-color: #003147;
     border-radius: 5%;
-}
-.right_side{
-    height: 100%;
-    width: 50%;
-    background-color: #236482;
-    border-radius: 5%;
-}
-.first_number{
-    height: 10%;
-    width: 67%;
-    background-color: white;
-    margin: auto;
-    margin-top: 20px;
-}
-.second_number{
-    height: 10%;
-    width: 67%;
-    background-color: white;
-    margin: auto;
-    margin-top: 20px;
-}
-.clear{
-    height: 12%;
-    width: 67%;
-    background-color: beige;
-    margin: auto;
-    margin-top: 20px;
-}
-.operations{
-    height: 45%;
-    width: 70%;
-    background-color: #003147;
-    margin: auto;
-    margin-top: 20px;
-    gap: 5px;
-    
-}
-.columone{
-    display: flex;
-    flex-wrap: wrap;
-    height: 50%;
-    width: 100%;
-    flex-direction: column;
-    
-}
-.columntwo{
-    display: flex;
-    flex-wrap: wrap;
-    height: 50%;
-    width: 100%;
-    flex-direction: column;
-}
-.multiplicação{
-    height: 95%;
-    width: 48%;
-    background-color: beige;
-    border-radius: 5%;
-    text-align: center;
-    font-size: xx-large;
-    
-}
-.divisão{
-    height: 95%;
-    width: 48%;
-    background-color: beige;
-    border-radius: 5%;
-    text-align: center;
-    font-size: xx-large;
-}
-.adição{
-    height: 95%;
-    width: 48%;
-    background-color: beige;
-    border-radius: 5%;
-    font-size: xx-large;
-    text-align: center;
-}
-.subtração{
-    height: 95%;
-    width: 48%;
-    background-color: beige;
-    border-radius: 5%;
-    font-size: xx-large;
-    text-align: center; 
 }
 .Histórico{
+    height: 100%;
+    width: 50%;
+    border-radius: 5%;
+    color: beige;
+    text-align: center;
+}
+.history{
     height: 10%;
     width: 67%;
-    margin: auto;
     margin-top: 20px;
     text-align: center;
+    color: beige;
 }
 
